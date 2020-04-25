@@ -22,7 +22,7 @@ function sayHiToGrandma(string){
   if (shout(string) == string) {
     return "YES INDEED!"
   }
-  if ("I love you, Grandma" == string){
+  if (string == "I love you, Grandma"){
     return "I love you, too."
   }
   
